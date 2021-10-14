@@ -1,0 +1,23 @@
+public class Demo {
+    public static void main(String args []) {
+        Abigail abigail = new Abigail();
+        abigail.setStr("B");
+        abigail.setAgl("C");
+        abigail.setLuk("C");
+        abigail.setEnd("A");
+        abigail.setMp("B");
+        abigail.setNp("A");
+        abigail.setSkills("Faithful Prayer C, Mass Hysteria B, Witch Trials A+");
+        abigail.showstatus();
+    
+        Serenity serenity = new Serenity();
+        serenity.setStr("D");
+        serenity.setAgl("A+");
+        serenity.setLuk("A");
+        serenity.setEnd("D");
+        serenity.setMp("C");
+        serenity.setNp("C");
+        serenity.setSkills("Morph (Inflitration) C, Poison Blade C++, Dance of Silence B");
+        serenity.showstatus();
+    }
+}
