@@ -1,0 +1,5 @@
+public class Serenity extends Servant {
+    public Serenity() {
+        System.out.println("Berikut merupakan stat Servant : Hassan of the Serenity");
+    }
+}
